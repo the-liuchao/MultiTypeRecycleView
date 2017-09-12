@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:flex="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#eeeeee"
+              android:orientation="vertical"
+              android:paddingBottom="1dp">
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/super_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        flex:sCenterSpaceHeight="15dp"
+        flex:sCenterTextColor="@android:color/white"
+        flex:sDividerLineHeight="0dp"
+        flex:sLeftBottomTextString=" "
+        flex:sLeftIconRes="@mipmap/ic_launcher"
+        flex:sLeftTopTextColor="@android:color/background_dark"
+        flex:sLeftTopTextString="姓名"
+        flex:sLeftViewGravity="center"
+        flex:sRightBottomTextString="生日"
+        flex:sRightTopTextColor="@android:color/background_dark"
+        flex:sRightTopTextString="职位"
+        flex:sRightViewGravity="right_center"/>
+
+
+</LinearLayout>
